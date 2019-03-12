@@ -21,6 +21,8 @@ public class Tvshow {
     @Size(min=10, max=30)
     private String description;
 
+    public Tvshow() {
+    }
 
     public long getId() {
         return id;
